@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>«Марсианин 2023»</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Intro section -->
+        <header>
+            <nav class="nav">
+                <div class="nav__logo">
+                    <h3 class="logo"><a href="#home"><span>Экскурсия</span> на Марс</a></h3>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero">«Марсианин 2023»</a></li>
+                    <li class="nav__item"><a href="#tours">Туры</a></li>
+                    <li class="nav__item"><a href="#cta-form">Заказать экскурсию</a></li>
+                </ul>
+            </nav>
+            <div class="intro-content">
+                <h1 class="intro-content__title translate" data-speed="0.1">
+                    <span>Освоить</span><br>новые горизонты</h1>
+                </h1>
+                <img  src="assets/intro_Earth.png" class="intro-content__image-Earth translate" alt="Earth" data-speed="-0.25">
+                <img src="assets/intro_Mars.png" class="intro-content__image-Mars translate" alt="Mars" data-speed="-0.2">
+                <img src="assets/intro_space.jpg" class="intro-content__image-Space translate" alt="Space" data-speed="0.4">
+            </div>
+        </header>
+        <!-- Hero section -->
+        <section class="hero" id="hero">
+            <div class="shadow"></div>
+            <div class="hero__container opacity">
+                <div class="hero__content">
+                    <h3 class="hero__title">
+                        «Марсианин 2023»
+                    </h3>
+                    <p class="hero__body">Приветствуем Вас на первом пилотируемом космическом корабле «Марсианин 2023».</p>
+                    <p class="hero__body">Наша цель — сделать Ваш полет комфортным и незабываемым. Ожидаемое время прибытия и высадки на Марс составит 26 месяцев. Корабль оснащен всевозможными отделами и секциями: бары, рестораны, спортзалы, бассейн с панорамным видом на Землю, кинозалы, теннисный корт и многое другое.</p>
+                    <p class="hero__body">Мы нацелены на то, чтобы наши пассажиры чувствовали себя, как дома и вели активную социальную жизнь на протяжении всего полета.</p>
+                </div>
+                <div class="hero__container-img opacity">
+                    <img src="assets/hero_martian.jpg" class="hero__image" alt="Spaceship">
+                </div>
+            </div>
+        </section>
+
+        <!-- Tours section -->
+        <section class="tours">
+            <div class="shadow"></div>
+            <h1 class="tours__title" id="tours">Выбрать тур</h1>
+            <div class="tours__cards">
+                <div class="card">
+                    <div class="card__image">
+                        <img src="assets/tours_1.jpg" alt="Rocket">
+                    </div>
+                    <h2 class="card__title">Полёт на Марс</h2>
+                    <h4 class="card__subtitle">1 000 000 000 ₽ / 1 чел.</h4>
+                    <p class="card__body">Полёт включает в себя 26 месяцев пребывания на корабле «Марсианин 2023» с опцией гибернации в любое время, высадку на Марс и обратный путь на Землю.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card__image">
+                        <img src="assets/tours_2.jpg" alt="Openspace">
+                    </div>
+                    <h2 class="card__title">Полёт на Марс «Плюс»</h2>
+                    <h4 class="card__subtitle">1 500 000 000 ₽ / 1 чел.</h4>
+                    <p class="card__body">Полёт включает в себя 26 месяцев пребывания на корабле «Марсианин 2023» со всеми доступными опциями, а также с возможностью выйти в открытый космос с команде с опытным инструктором.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card__image">
+                        <img src="assets/tours_3.jpg" alt="Earth">
+                    </div>
+                    <h2 class="card__title">Полёт на Марс «Экстра»</h2>
+                    <h4 class="card__subtitle">2 000 000 000 ₽ / 1 чел.</h4>
+                    <p class="card__body">Полёт включает в себя 26 месяцев пребывания на корабле «Марсианин 2023» со всеми доступными опциями и возможностью совершить запланированную посадку на Юпитер.</p>
+                    <p class="card__warning">Заранее проконсультируйтесь с врачом, радиация неизбежна.</p>
+                </div>
+            </div>
+        </section>
+         <!-- CTA section -->
+         <div class="cta">
+            <div class="cta__text">
+                <h1 class="cta__h2">Более 10 тыс. полётов</h1>
+                <h1 class="cta__h1">Более 50 млн.<br>благодарных пассажиров</h1>
+            </div>
+         </div>   
+        <!-- CTA-form and Footer section -->
+        <footer class="footer">
+            <p class="preform__p" id="cta-form">Хотите узнать больше?<br>Наши специалисты с радостью Вам помогут</p>
+            <div class="footer__video">  
+                <video width="100%" src="assets/footer_bg_video.mp4" loop autoplay></video>
+            </div> 
+                    <form class="cta__block">
+                        <div class="cta__form">
+                            <div class="form__group">
+                                <label id="name-label" for="name"></label>
+                                <input type="text" name="name" id="name" placeholder="Ваше имя" required/>
+                            </div>
+
+                            <div class="form__group">
+                                <label id="email-label" for="email"></label>
+                                <input type="email" name="email" id="email" placeholder="Введите почту" required/>
+                            </div>
+
+                            <div class="form__group">
+                                <p>Ваш комментарий</p>
+                                <textarea id="comment" class="form__textarea" name="comment" placeholder="Оставьте свой комментарий здесь..." rows="3" cols="28">  </textarea>
+                            </div>
+                            
+                            <div class="form__group">
+                                    <button type="submit" id="submit" class="submit-button">
+                                        Отправить
+                                    </button>
+                            </div>
+                        </div>
+                    </form>
+            <div class="footer__end">
+                <div class="footer__end-content">
+                    <p class="footer__note">Сайт создан в демонстрационных целях. Полёты на Марс в зоне ответственности сильных мира сего.</p>
+                    <p class="footer__copyright"> © mikalashnikova 2021</p>
+                </div>
+                <div class="footer__socials">
+                        <div class="socials__icons">
+                            <a href="https://github.com/mikalashnikova"><i class="fab fa-github-square fa-lg"></i></a>
+                            <a href="https://vk.com/mikalashnikova"><i class="fab fa-vk fa-lg"></i></a>
+                            <a href="https://twitter.com/wd_miak"><i class="fab fa-twitter-square fa-lg"></i></a>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
